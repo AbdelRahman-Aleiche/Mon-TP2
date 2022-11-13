@@ -1,0 +1,97 @@
+.main {
+    max-width: 1000px;
+    min-width: 500px;
+    margin: auto;
+    background-color: white;
+}
+
+.headerLayout {
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.headerLayout img {
+    width: 60px;
+    margin-left: 15px;
+}
+
+.menuLayout {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.menuLayout a {
+    min-width: 50px;
+    font-size: 1em;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 6px;
+    padding: 4px 20px 4px 20px;
+    
+}
+
+
+.menuLayout a:hover {
+    color: #FDF0E0;
+    background-color: #4649FF;
+}
+
+.menuLayout a:active {
+    background-color: gray;
+}
+
+.menuLayout .selected {
+    background-color: #D6E4E5;
+}
+
+.content {
+    padding: 20px;
+   
+}
+
+.content img {
+    width: 100%;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.avatarMainContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.avatarContainer{
+    width: 252px;
+    height: 252px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 255px;
+    margin-top: 25px;
+    border: 10px solid #4649FF;
+}
+.avatar{
+    background-image: url("../images/Patrick_Star.svg.webp");
+    height: 247px;
+    width: 247px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 260px;
+}
+.avatarText{
+    text-align: justify;
+    margin-top: 50px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
